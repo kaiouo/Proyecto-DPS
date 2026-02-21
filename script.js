@@ -27,7 +27,6 @@ productos.forEach(producto => {
 }
 mostrarProductos();
 
-
 let carrito = [];
 function agregarAlCarrito(id) {
     const productoOriginal = productos.find(prod => prod.id === id);
